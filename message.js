@@ -1,5 +1,5 @@
 
-const greeting = 'Your spirit animal is a : ';
+const greeting = 'Your spirit animal is a/an : ';
 
 const spiritAnimals = ['wolf', 'lion', 'tiger', 'owl', 'gazell', 'otter', 'hummingbird', 'cheetah', 'bull']; 
 
@@ -8,3 +8,6 @@ const chooseAnimal = (arr) => {
     let userAnimal = arr[randNum];
     return userAnimal;
 } 
+
+console.log(greeting);
+console.log(chooseAnimal(spiritAnimals));
