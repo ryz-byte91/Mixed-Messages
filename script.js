@@ -10,4 +10,6 @@ const chooseAnimal = (arr) => {
 } 
 
 console.log(greeting);
-console.log(chooseAnimal(spiritAnimals));
+
+const button = document.getElementById('button'); 
+button.onclick = chooseAnimal(spiritAnimals);
