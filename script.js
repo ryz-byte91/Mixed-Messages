@@ -11,7 +11,7 @@ const chooseAnimal = (arr) => {
 
  }; 
 
-
+chooseAnimal(spiritAnimals);
 
 
 
