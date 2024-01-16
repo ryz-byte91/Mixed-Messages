@@ -11,5 +11,5 @@ const chooseAnimal = (arr) => {
 
 console.log(greeting);
 
-const button = document.getElementById('button'); 
+let button = document.getElementById('button');
 button.onclick = chooseAnimal(spiritAnimals);
